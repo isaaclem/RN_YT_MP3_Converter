@@ -9,7 +9,6 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/prop-types': 'off',
     'comma-dangle': 'off',
-    'react/state-in-constructor': 'never',
     'import/prefer-default-export': 'off',
     'no-underscore-dangle': ["error", { "allowAfterThis": true }],
     'react/destructuring-assignment': 'off'
