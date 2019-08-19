@@ -6,4 +6,4 @@ import Reactotron from './reactotronConfig';
 import rootReducer from '../reducers';
 
 
-export const store = createStore(rootReducer, compose(ReduxThunk, Reactotron.createEnhancer()))
+export const store = createStore(rootReducer, compose(applyMiddleware(ReduxThunk), Reactotron.createEnhancer()))
