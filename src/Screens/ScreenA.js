@@ -7,7 +7,11 @@ import { Button } from '../components/Button';
 
 export default () => (
   <SafeAreaView style={{ flex: 1 }}>
-    <Form header={Config.API_URL} subheader="Please create a new account">
+    <Form
+      header={Config.API_URL}
+      subheader={__DEV__.toString()}
+      test={(e) => console.log(e)}
+    >
       <TextInput label="Email" keyboardType="email-address" />
       <TextInput label="Password" secureTextEntry />
       <TextInput label="Confirm Password" secureTextEntry />

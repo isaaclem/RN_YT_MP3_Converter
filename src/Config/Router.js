@@ -2,7 +2,7 @@ import { createStackNavigator, createAppContainer } from 'react-navigation';
 import { ScreenA } from '../Screens';
 
 const App = createStackNavigator({
-  ScreenA
+  ScreenA,
 });
 
 const MainNavigator = createAppContainer(App);

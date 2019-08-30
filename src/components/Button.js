@@ -3,7 +3,11 @@ import { TouchableOpacity, Text, StyleSheet } from 'react-native';
 
 import colors from '../Config/colors';
 
-export const Button = ({ onPress = () => {}, children = '', outline = false }) => {
+export const Button = ({
+  onPress = () => {},
+  children = '',
+  outline = false,
+}) => {
   const containerStyles = [styles.container];
   const textStyles = [styles.text];
 
@@ -26,19 +30,19 @@ const styles = StyleSheet.create({
     borderRadius: 6,
     borderWidth: 1,
     borderColor: colors.primary,
-    marginVertical: 7
+    marginVertical: 7,
   },
   containerOutline: {
     backgroundColor: 'transparent',
-    borderColor: colors.border
+    borderColor: colors.border,
   },
   text: {
     color: colors.white,
     alignSelf: 'center',
     fontSize: 18,
-    fontWeight: '500'
+    fontWeight: '500',
   },
   textOutline: {
-    color: colors.primary
-  }
+    color: colors.primary,
+  },
 });

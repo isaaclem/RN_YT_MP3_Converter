@@ -1,4 +1,3 @@
-
 // Auto-generated file created by react-native-storybook-loader
 // Do not edit.
 //
@@ -7,13 +6,11 @@
 function loadStories() {
   require('../src/stories/Button.stories');
   require('../src/stories/Form.stories');
-  
 }
 
 const stories = [
   '../src/stories/Button.stories',
   '../src/stories/Form.stories',
-  
 ];
 
 module.exports = {

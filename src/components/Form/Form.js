@@ -12,18 +12,17 @@ const styles = StyleSheet.create({
     color: colors.primary,
     fontWeight: '600',
     fontSize: 32,
-    marginBottom: 12
+    marginBottom: 12,
   },
   topRow: {
-    marginBottom: 28
+    marginBottom: 28,
   },
   subheaderText: {
     color: colors.gray,
     fontSize: 20,
-    marginBottom: 12
-  }
+    marginBottom: 12,
+  },
 });
-
 
 export default ({ children, header, subheader }) => (
   <View style={styles.container}>

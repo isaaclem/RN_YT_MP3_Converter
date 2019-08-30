@@ -1,5 +1,3 @@
 import ScreenA from './ScreenA';
 
-export {
-  ScreenA
-};
+export { ScreenA };

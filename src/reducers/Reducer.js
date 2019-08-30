@@ -1,7 +1,7 @@
 import { FIRST_TYPE } from '../actions/types';
 
 const INITIAL_STATE = {
-  someState: 'hola'
+  someState: 'hola',
 };
 
 export default (state = INITIAL_STATE, action) => {

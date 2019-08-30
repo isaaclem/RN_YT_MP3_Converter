@@ -8,6 +8,6 @@ export const store = createStore(
   rootReducer,
   compose(
     applyMiddleware(ReduxThunk),
-    Reactotron.createEnhancer()
-  )
+    Reactotron.createEnhancer(),
+  ),
 );

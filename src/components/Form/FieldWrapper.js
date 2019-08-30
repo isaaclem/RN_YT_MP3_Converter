@@ -5,29 +5,27 @@ import colors from '../../Config/colors';
 
 const styles = StyleSheet.create({
   container: {
-    marginBottom: 20
+    marginBottom: 20,
   },
   labelText: {
     color: colors.gray,
     fontSize: 18,
-    marginBottom: 10
+    marginBottom: 10,
   },
   messageText: {
     color: colors.gray,
     fontSize: 13,
-    marginTop: 5
+    marginTop: 5,
   },
   messageSuccess: {
-    color: colors.success
+    color: colors.success,
   },
   messageError: {
-    color: colors.error
-  }
+    color: colors.error,
+  },
 });
 
-export default ({
-  children, label = '', message = '', messageType
-}) => {
+export default ({ children, label = '', message = '', messageType }) => {
   const messageStyles = [styles.messageText];
 
   if (messageType === 'success') {
