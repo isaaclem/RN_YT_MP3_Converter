@@ -2,8 +2,9 @@ import React from 'react';
 import { View, StyleSheet, Text } from 'react-native';
 
 import colors from '../../Config/colors';
+import { create } from '../../utilities/normalize';
 
-const styles = StyleSheet.create({
+const styles = create({
   container: {
     marginHorizontal: 20,
     flex: 1,
@@ -11,7 +12,7 @@ const styles = StyleSheet.create({
   headerText: {
     color: colors.primary,
     fontWeight: '600',
-    fontSize: 32,
+    fontSize: 23,
     marginBottom: 12,
   },
   topRow: {
