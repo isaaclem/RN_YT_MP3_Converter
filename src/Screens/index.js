@@ -1,3 +1,3 @@
-import ScreenA from './ScreenA';
+import MainPage from './MainPage';
 
-export { ScreenA };
+export { MainPage };
