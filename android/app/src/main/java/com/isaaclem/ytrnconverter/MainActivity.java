@@ -1,4 +1,4 @@
-package com.activate_rn;
+package com.isaaclem.ytrnconverter;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -14,7 +14,7 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "activate_rn";
+        return "rnYTMP3Converter";
     }
 
     @Override
@@ -22,7 +22,7 @@ public class MainActivity extends ReactActivity {
       return new ReactActivityDelegate(this, getMainComponentName()) {
         @Override
         protected ReactRootView createRootView() {
-         return new RNGestureHandlerEnabledRootView(MainActivity.this);
+         return new rnYTMP3ConverterGestureHandlerEnabledRootView(MainActivity.this);
         }
       };
     }

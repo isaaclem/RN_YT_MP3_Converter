@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'activate_rn' do
-  # Pods for activate_rn
+target 'rnYTMP3Converter' do
+  # Pods for rnYTMP3Converter
   pod 'React', :path => '../node_modules/react-native/'
   pod 'React-Core', :path => '../node_modules/react-native/React'
   pod 'React-DevSupport', :path => '../node_modules/react-native/React'
@@ -27,7 +27,7 @@ target 'activate_rn' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'activate_rnTests' do
+  target 'rnYTMP3ConverterTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -40,10 +40,10 @@ post_install do |installer|
     if target.name == 'react-native-config'
       phase = target.project.new(Xcodeproj::Project::Object::PBXShellScriptBuildPhase)
       phase.shell_script = "cd ../../"\
-                           " && RNC_ROOT=./node_modules/react-native-config/"\
-                           " && export SYMROOT=$RNC_ROOT/ios/ReactNativeConfig"\
-                           " && export BUILD_DIR=$RNC_ROOT/ios/ReactNativeConfig"\
-                           " && ruby $RNC_ROOT/ios/ReactNativeConfig/BuildDotenvConfig.ruby"
+                           " && rnYTMP3ConverterC_ROOT=./node_modules/react-native-config/"\
+                           " && export SYMROOT=$rnYTMP3ConverterC_ROOT/ios/ReactNativeConfig"\
+                           " && export BUILD_DIR=$rnYTMP3ConverterC_ROOT/ios/ReactNativeConfig"\
+                           " && ruby $rnYTMP3ConverterC_ROOT/ios/ReactNativeConfig/BuildDotenvConfig.ruby"
 
       target.build_phases << phase
       target.build_phases.move(phase,0)

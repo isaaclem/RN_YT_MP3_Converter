@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* activate_rnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* activate_rnTests.m */; };
+		00E356F31AD99517003FC87E /* rnYTMP3ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rnYTMP3ConverterTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,9 +15,9 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* activate_rnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* activate_rnTests.m */; };
-		77D9999C80070D7A8D37874A /* libPods-activate_rnTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 285BF10F2CE167FFE1BF2E02 /* libPods-activate_rnTests.a */; };
-		C4FBEAEA4613A2F54084382F /* libPods-activate_rn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE170327A979147B25125238 /* libPods-activate_rn.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* rnYTMP3ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rnYTMP3ConverterTests.m */; };
+		77D9999C80070D7A8D37874A /* libPods-rnYTMP3ConverterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 285BF10F2CE167FFE1BF2E02 /* libPods-rnYTMP3ConverterTests.a */; };
+		C4FBEAEA4613A2F54084382F /* libPods-rnYTMP3Converter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE170327A979147B25125238 /* libPods-rnYTMP3Converter.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,37 +26,37 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = activate_rn;
+			remoteInfo = rnYTMP3Converter;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "activate_rn-tvOS";
+			remoteInfo = "rnYTMP3Converter-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00673511DD15FAA648F135A7 /* Pods-activate_rn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-activate_rn.debug.xcconfig"; path = "Target Support Files/Pods-activate_rn/Pods-activate_rn.debug.xcconfig"; sourceTree = "<group>"; };
+		00673511DD15FAA648F135A7 /* Pods-rnYTMP3Converter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnYTMP3Converter.debug.xcconfig"; path = "Target Support Files/Pods-rnYTMP3Converter/Pods-rnYTMP3Converter.debug.xcconfig"; sourceTree = "<group>"; };
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* activate_rnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = activate_rnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* rnYTMP3ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rnYTMP3ConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* activate_rnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = activate_rnTests.m; sourceTree = "<group>"; };
-		0A229E8DBA9DE94EB79927F5 /* Pods-activate_rnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-activate_rnTests.release.xcconfig"; path = "Target Support Files/Pods-activate_rnTests/Pods-activate_rnTests.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* activate_rn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = activate_rn.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = activate_rn/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = activate_rn/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* rnYTMP3ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rnYTMP3ConverterTests.m; sourceTree = "<group>"; };
+		0A229E8DBA9DE94EB79927F5 /* Pods-rnYTMP3ConverterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnYTMP3ConverterTests.release.xcconfig"; path = "Target Support Files/Pods-rnYTMP3ConverterTests/Pods-rnYTMP3ConverterTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* rnYTMP3Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rnYTMP3Converter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rnYTMP3Converter/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = rnYTMP3Converter/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = activate_rn/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = activate_rn/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = activate_rn/main.m; sourceTree = "<group>"; };
-		285BF10F2CE167FFE1BF2E02 /* libPods-activate_rnTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-activate_rnTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* activate_rn-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "activate_rn-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* activate_rn-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "activate_rn-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AD807DFA5F169834C6763F8 /* Pods-activate_rnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-activate_rnTests.debug.xcconfig"; path = "Target Support Files/Pods-activate_rnTests/Pods-activate_rnTests.debug.xcconfig"; sourceTree = "<group>"; };
-		624205D2E3D0361B94B7EF88 /* Pods-activate_rn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-activate_rn.release.xcconfig"; path = "Target Support Files/Pods-activate_rn/Pods-activate_rn.release.xcconfig"; sourceTree = "<group>"; };
-		AE170327A979147B25125238 /* libPods-activate_rn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-activate_rn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rnYTMP3Converter/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rnYTMP3Converter/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rnYTMP3Converter/main.m; sourceTree = "<group>"; };
+		285BF10F2CE167FFE1BF2E02 /* libPods-rnYTMP3ConverterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnYTMP3ConverterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* rnYTMP3Converter-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rnYTMP3Converter-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* rnYTMP3Converter-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rnYTMP3Converter-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD807DFA5F169834C6763F8 /* Pods-rnYTMP3ConverterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnYTMP3ConverterTests.debug.xcconfig"; path = "Target Support Files/Pods-rnYTMP3ConverterTests/Pods-rnYTMP3ConverterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		624205D2E3D0361B94B7EF88 /* Pods-rnYTMP3Converter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnYTMP3Converter.release.xcconfig"; path = "Target Support Files/Pods-rnYTMP3Converter/Pods-rnYTMP3Converter.release.xcconfig"; sourceTree = "<group>"; };
+		AE170327A979147B25125238 /* libPods-rnYTMP3Converter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnYTMP3Converter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77D9999C80070D7A8D37874A /* libPods-activate_rnTests.a in Frameworks */,
+				77D9999C80070D7A8D37874A /* libPods-rnYTMP3ConverterTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4FBEAEA4613A2F54084382F /* libPods-activate_rn.a in Frameworks */,
+				C4FBEAEA4613A2F54084382F /* libPods-rnYTMP3Converter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,13 +95,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* activate_rnTests */ = {
+		00E356EF1AD99517003FC87E /* rnYTMP3ConverterTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* activate_rnTests.m */,
+				00E356F21AD99517003FC87E /* rnYTMP3ConverterTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = activate_rnTests;
+			path = rnYTMP3ConverterTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -112,7 +112,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* activate_rn */ = {
+		13B07FAE1A68108700A75B9A /* rnYTMP3Converter */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -123,7 +123,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = activate_rn;
+			name = rnYTMP3Converter;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -131,8 +131,8 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				AE170327A979147B25125238 /* libPods-activate_rn.a */,
-				285BF10F2CE167FFE1BF2E02 /* libPods-activate_rnTests.a */,
+				AE170327A979147B25125238 /* libPods-rnYTMP3Converter.a */,
+				285BF10F2CE167FFE1BF2E02 /* libPods-rnYTMP3ConverterTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,9 +147,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* activate_rn */,
+				13B07FAE1A68108700A75B9A /* rnYTMP3Converter */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* activate_rnTests */,
+				00E356EF1AD99517003FC87E /* rnYTMP3ConverterTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				B2DFD8F2DCC6F9D4844CAA00 /* Pods */,
@@ -162,10 +162,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* activate_rn.app */,
-				00E356EE1AD99517003FC87E /* activate_rnTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* activate_rn-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* activate_rn-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* rnYTMP3Converter.app */,
+				00E356EE1AD99517003FC87E /* rnYTMP3ConverterTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* rnYTMP3Converter-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* rnYTMP3Converter-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,10 +173,10 @@
 		B2DFD8F2DCC6F9D4844CAA00 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				00673511DD15FAA648F135A7 /* Pods-activate_rn.debug.xcconfig */,
-				624205D2E3D0361B94B7EF88 /* Pods-activate_rn.release.xcconfig */,
-				5AD807DFA5F169834C6763F8 /* Pods-activate_rnTests.debug.xcconfig */,
-				0A229E8DBA9DE94EB79927F5 /* Pods-activate_rnTests.release.xcconfig */,
+				00673511DD15FAA648F135A7 /* Pods-rnYTMP3Converter.debug.xcconfig */,
+				624205D2E3D0361B94B7EF88 /* Pods-rnYTMP3Converter.release.xcconfig */,
+				5AD807DFA5F169834C6763F8 /* Pods-rnYTMP3ConverterTests.debug.xcconfig */,
+				0A229E8DBA9DE94EB79927F5 /* Pods-rnYTMP3ConverterTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -185,9 +185,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* activate_rnTests */ = {
+		00E356ED1AD99517003FC87E /* rnYTMP3ConverterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "activate_rnTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rnYTMP3ConverterTests" */;
 			buildPhases = (
 				747CFFA1F5C4A75D7DC5F243 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -199,14 +199,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = activate_rnTests;
-			productName = activate_rnTests;
-			productReference = 00E356EE1AD99517003FC87E /* activate_rnTests.xctest */;
+			name = rnYTMP3ConverterTests;
+			productName = rnYTMP3ConverterTests;
+			productReference = 00E356EE1AD99517003FC87E /* rnYTMP3ConverterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* activate_rn */ = {
+		13B07F861A680F5B00A75B9A /* rnYTMP3Converter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "activate_rn" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rnYTMP3Converter" */;
 			buildPhases = (
 				6AF067EED9B4960C987BA912 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -219,14 +219,14 @@
 			);
 			dependencies = (
 			);
-			name = activate_rn;
-			productName = activate_rn;
-			productReference = 13B07F961A680F5B00A75B9A /* activate_rn.app */;
+			name = rnYTMP3Converter;
+			productName = rnYTMP3Converter;
+			productReference = 13B07F961A680F5B00A75B9A /* rnYTMP3Converter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* activate_rn-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* rnYTMP3Converter-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "activate_rn-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rnYTMP3Converter-tvOS" */;
 			buildPhases = (
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
@@ -238,14 +238,14 @@
 			);
 			dependencies = (
 			);
-			name = "activate_rn-tvOS";
-			productName = "activate_rn-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* activate_rn-tvOS.app */;
+			name = "rnYTMP3Converter-tvOS";
+			productName = "rnYTMP3Converter-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* rnYTMP3Converter-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* activate_rn-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* rnYTMP3Converter-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "activate_rn-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rnYTMP3Converter-tvOSTests" */;
 			buildPhases = (
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
@@ -256,9 +256,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "activate_rn-tvOSTests";
-			productName = "activate_rn-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* activate_rn-tvOSTests.xctest */;
+			name = "rnYTMP3Converter-tvOSTests";
+			productName = "rnYTMP3Converter-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* rnYTMP3Converter-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -285,7 +285,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "activate_rn" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rnYTMP3Converter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -298,10 +298,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* activate_rn */,
-				00E356ED1AD99517003FC87E /* activate_rnTests */,
-				2D02E47A1E0B4A5D006451C7 /* activate_rn-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* activate_rn-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* rnYTMP3Converter */,
+				00E356ED1AD99517003FC87E /* rnYTMP3ConverterTests */,
+				2D02E47A1E0B4A5D006451C7 /* rnYTMP3Converter-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* rnYTMP3Converter-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -384,7 +384,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-activate_rn-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-rnYTMP3Converter-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -406,7 +406,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-activate_rnTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-rnYTMP3ConverterTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -458,7 +458,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* activate_rnTests.m in Sources */,
+				00E356F31AD99517003FC87E /* rnYTMP3ConverterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,7 +484,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* activate_rnTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* rnYTMP3ConverterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,12 +493,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* activate_rn */;
+			target = 13B07F861A680F5B00A75B9A /* rnYTMP3Converter */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* activate_rn-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* rnYTMP3Converter-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -510,7 +510,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = activate_rn;
+			path = rnYTMP3Converter;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -518,14 +518,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AD807DFA5F169834C6763F8 /* Pods-activate_rnTests.debug.xcconfig */;
+			baseConfigurationReference = 5AD807DFA5F169834C6763F8 /* Pods-rnYTMP3ConverterTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = activate_rnTests/Info.plist;
+				INFOPLIST_FILE = rnYTMP3ConverterTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -535,17 +535,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/activate_rn.app/activate_rn";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnYTMP3Converter.app/rnYTMP3Converter";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A229E8DBA9DE94EB79927F5 /* Pods-activate_rnTests.release.xcconfig */;
+			baseConfigurationReference = 0A229E8DBA9DE94EB79927F5 /* Pods-rnYTMP3ConverterTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = activate_rnTests/Info.plist;
+				INFOPLIST_FILE = rnYTMP3ConverterTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -555,18 +555,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/activate_rn.app/activate_rn";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnYTMP3Converter.app/rnYTMP3Converter";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00673511DD15FAA648F135A7 /* Pods-activate_rn.debug.xcconfig */;
+			baseConfigurationReference = 00673511DD15FAA648F135A7 /* Pods-rnYTMP3Converter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = activate_rn/Info.plist;
+				INFOPLIST_FILE = rnYTMP3Converter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -574,18 +574,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = activate_rn;
+				PRODUCT_NAME = rnYTMP3Converter;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 624205D2E3D0361B94B7EF88 /* Pods-activate_rn.release.xcconfig */;
+			baseConfigurationReference = 624205D2E3D0361B94B7EF88 /* Pods-rnYTMP3Converter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = activate_rn/Info.plist;
+				INFOPLIST_FILE = rnYTMP3Converter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -593,7 +593,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = activate_rn;
+				PRODUCT_NAME = rnYTMP3Converter;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -604,20 +604,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WArnYTMP3Converter_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WArnYTMP3Converter_INFINITE_RECURSION = YES;
+				CLANG_WArnYTMP3Converter_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "activate_rn-tvOS/Info.plist";
+				INFOPLIST_FILE = "rnYTMP3Converter-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.activate_rn-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.rnYTMP3Converter-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -631,20 +631,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WArnYTMP3Converter_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WArnYTMP3Converter_INFINITE_RECURSION = YES;
+				CLANG_WArnYTMP3Converter_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "activate_rn-tvOS/Info.plist";
+				INFOPLIST_FILE = "rnYTMP3Converter-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.activate_rn-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.rnYTMP3Converter-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -657,23 +657,23 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WArnYTMP3Converter_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WArnYTMP3Converter_INFINITE_RECURSION = YES;
+				CLANG_WArnYTMP3Converter_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "activate_rn-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "rnYTMP3Converter-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.activate_rn-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.rnYTMP3Converter-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/activate_rn-tvOS.app/activate_rn-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnYTMP3Converter-tvOS.app/rnYTMP3Converter-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
@@ -683,23 +683,23 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WArnYTMP3Converter_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WArnYTMP3Converter_INFINITE_RECURSION = YES;
+				CLANG_WArnYTMP3Converter_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "activate_rn-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "rnYTMP3Converter-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.activate_rn-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.rnYTMP3Converter-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/activate_rn-tvOS.app/activate_rn-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnYTMP3Converter-tvOS.app/rnYTMP3Converter-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -712,25 +712,25 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WArnYTMP3Converter_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WArnYTMP3Converter_BOOL_CONVERSION = YES;
+				CLANG_WArnYTMP3Converter_COMMA = YES;
+				CLANG_WArnYTMP3Converter_CONSTANT_CONVERSION = YES;
+				CLANG_WArnYTMP3Converter_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WArnYTMP3Converter_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WArnYTMP3Converter_EMPTY_BODY = YES;
+				CLANG_WArnYTMP3Converter_ENUM_CONVERSION = YES;
+				CLANG_WArnYTMP3Converter_INFINITE_RECURSION = YES;
+				CLANG_WArnYTMP3Converter_INT_CONVERSION = YES;
+				CLANG_WArnYTMP3Converter_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WArnYTMP3Converter_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WArnYTMP3Converter_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WArnYTMP3Converter_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WArnYTMP3Converter_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WArnYTMP3Converter_STRICT_PROTOTYPES = YES;
+				CLANG_WArnYTMP3Converter_SUSPICIOUS_MOVE = YES;
+				CLANG_WArnYTMP3Converter_UNREACHABLE_CODE = YES;
+				CLANG_WArnYTMP3Converter__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -743,13 +743,13 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				GCC_SYMBOLS_PRIVATE_EXTErnYTMP3Converter = NO;
+				GCC_WArnYTMP3Converter_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WArnYTMP3Converter_ABOUT_RETUrnYTMP3Converter_TYPE = YES_ERROR;
+				GCC_WArnYTMP3Converter_UNDECLARED_SELECTOR = YES;
+				GCC_WArnYTMP3Converter_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WArnYTMP3Converter_UNUSED_FUNCTION = YES;
+				GCC_WArnYTMP3Converter_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -765,37 +765,37 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WArnYTMP3Converter_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WArnYTMP3Converter_BOOL_CONVERSION = YES;
+				CLANG_WArnYTMP3Converter_COMMA = YES;
+				CLANG_WArnYTMP3Converter_CONSTANT_CONVERSION = YES;
+				CLANG_WArnYTMP3Converter_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WArnYTMP3Converter_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WArnYTMP3Converter_EMPTY_BODY = YES;
+				CLANG_WArnYTMP3Converter_ENUM_CONVERSION = YES;
+				CLANG_WArnYTMP3Converter_INFINITE_RECURSION = YES;
+				CLANG_WArnYTMP3Converter_INT_CONVERSION = YES;
+				CLANG_WArnYTMP3Converter_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WArnYTMP3Converter_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WArnYTMP3Converter_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WArnYTMP3Converter_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WArnYTMP3Converter_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WArnYTMP3Converter_STRICT_PROTOTYPES = YES;
+				CLANG_WArnYTMP3Converter_SUSPICIOUS_MOVE = YES;
+				CLANG_WArnYTMP3Converter_UNREACHABLE_CODE = YES;
+				CLANG_WArnYTMP3Converter__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				GCC_WArnYTMP3Converter_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WArnYTMP3Converter_ABOUT_RETUrnYTMP3Converter_TYPE = YES_ERROR;
+				GCC_WArnYTMP3Converter_UNDECLARED_SELECTOR = YES;
+				GCC_WArnYTMP3Converter_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WArnYTMP3Converter_UNUSED_FUNCTION = YES;
+				GCC_WArnYTMP3Converter_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -806,7 +806,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "activate_rnTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rnYTMP3ConverterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -815,7 +815,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "activate_rn" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rnYTMP3Converter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -824,7 +824,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "activate_rn-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rnYTMP3Converter-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -833,7 +833,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "activate_rn-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rnYTMP3Converter-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -842,7 +842,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "activate_rn" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rnYTMP3Converter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

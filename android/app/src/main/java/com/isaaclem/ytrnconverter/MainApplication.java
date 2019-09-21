@@ -1,4 +1,4 @@
-package com.activate_rn;
+package com.isaaclem.ytrnconverter;
 
 import android.app.Application;
 import android.util.Log;
