@@ -12,6 +12,6 @@ export default ({ children }) => (
 const styles = create({
   container: {
     flex: 1,
-    backgroundColor: Colors.background
+    backgroundColor: Colors.white
   }
 });
