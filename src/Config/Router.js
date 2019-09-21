@@ -1,8 +1,19 @@
 import { createStackNavigator, createAppContainer } from 'react-navigation';
-import { MainPage } from '../Screens';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
 
-const App = createStackNavigator({
-  MainPage,
+import { MainPage, LibraryPage } from '../Screens';
+
+const HomeStack = createStackNavigator({
+  MainPage
+});
+
+const LibraryStack = createStackNavigator({
+  LibraryPage
+})
+
+const App = createBottomTabNavigator({
+  HomeStack,
+  LibraryStack
 });
 
 const MainNavigator = createAppContainer(App);
